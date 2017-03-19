@@ -5,7 +5,7 @@ package org.mapstruct.test.model;
  */
 public class TargetSurnameNameMismatch {
     private String name;
-    private String surname;
+    private String surnamee;
 
     public String getName() {
         return name;
@@ -15,11 +15,11 @@ public class TargetSurnameNameMismatch {
         this.name = name;
     }
 
-    public String getSurname() {
-        return surname;
+    public String getSurnamee() {
+        return surnamee;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
+    public void setSurnamee(String surnamee) {
+        this.surnamee = surnamee;
     }
 }

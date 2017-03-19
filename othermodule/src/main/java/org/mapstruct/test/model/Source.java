@@ -5,6 +5,7 @@ package org.mapstruct.test.model;
  */
 public class Source {
     private String name;
+    private String surname;
 
     public String getName() {
         return name;
@@ -12,5 +13,13 @@ public class Source {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 }
